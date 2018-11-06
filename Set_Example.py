@@ -9,7 +9,7 @@ print(set1)
 # Creating a Set with  
 # the use of a String 
 set1 = set("RahulMeetsRahul") 
-print("\nSet with the use of String: ") 
+print("\n Set with the use of String: ") 
 print(set1) 
   
 # Creating a Set with 
