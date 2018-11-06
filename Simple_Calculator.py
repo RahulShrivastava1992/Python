@@ -29,5 +29,5 @@ while x :
         except ZeroDivisionError:
             print("exception handled")      
     else:
-        print("Exiting...")
+        print("Exiting from calculator...")
         break
