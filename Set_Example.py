@@ -17,7 +17,7 @@ print(set1)
 # (Using object to Store String) 
 String = 'RahulMeetsRahul'
 set1 = set(String) 
-print("\nSet with the use of an Object: " ) 
+print("\nSet with the use of an Objects: " ) 
 print(set1) 
   
 # Creating a Set with 
