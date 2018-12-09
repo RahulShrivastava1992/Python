@@ -14,9 +14,9 @@ class  Child(Parent):
 def Main():
         parent=Parent("Milky",29)
         child=Child("Rahul",34)
-        print("my name is "+str(child.name))
-        print("my age is "+str(child.age))
-        print("my name is "+str(parent.name))
-        print("my age is "+str(parent.age))
+        print("My name is "+str(child.name))
+        print("My age is "+str(child.age))
+        print("My name is "+str(parent.name))
+        print("My age is "+str(parent.age))
 if __name__=='__main__':
     Main()
