@@ -2,15 +2,15 @@ class Parent:
     def __init__(self,name,age):
         self.name=name
         self.age=age
-    def parentMethod():
-        print("I amm in parent method")
+    def parentMethod(self,name,age):
+        print("I amm in parent method"+name)
 class  Child(Parent):
     def __init__(self,name,age):
             super().__init__(name,age)
             self.name=name
             self.age=age
-    def childMethod():   
-        print("I am in child method")
+    def childMethod(self,name,age):   
+        print("I am in child method"+age)
 def Main():
         parent=Parent("Milky",29)
         child=Child("Rahul",34)
