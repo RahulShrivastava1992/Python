@@ -3,7 +3,7 @@ class Parent:
         self.name=name
         self.age=age
     def parentMethod(self,name,age):
-        print("I amm in parent method"+name)
+        print("I am in parent method"+name)
 class  Child(Parent):
     def __init__(self,name,age):
             super().__init__(name,age)
