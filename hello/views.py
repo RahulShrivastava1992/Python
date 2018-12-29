@@ -14,4 +14,13 @@ def hello_there(request, name):
             'date': datetime.now()
         }
     )
+def ChatBots(request, name):
+    return render(
+        request,
+        'hello/ChatBots.html',
+        {
+            'name': name,
+            'date': datetime.now()
+        }
+    )
 # Create your views here.
